@@ -31,7 +31,8 @@
   "bundleDependencies": false,
   "dependencies": {
     "@compone/class": "^1.1.1",
-    "@compone/event": "^1.1.2"
+    "@compone/event": "^1.1.2",
+    "@compone/style": "^1.0.1"
   },
   "deprecated": false,
   "description": "",

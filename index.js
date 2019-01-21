@@ -1,4 +1,5 @@
-const classed = require('@compone/class')
+const { assign } = Object 
+    , classed = require('@compone/class')
     , event = require('@compone/event')
     , style = require('@compone/style')
     , client = require('utilise/client')
@@ -37,7 +38,7 @@ const styler = async (node, ...names) => {
   .start(node.on('disconected').filter(() => !node.isConnected))
 }
 
-const data = async (node, ..names) => {
+const data = async (node, ...names) => {
  if (!node.data$) node.data$ = ripple
   .subscribe(names)
   .map(data => assign(node.state, data))
