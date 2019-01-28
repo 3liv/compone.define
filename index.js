@@ -3,6 +3,7 @@ const { assign } = Object
     , event = require('@compone/event')
     , style = require('@compone/style')
     , client = require('utilise/client')
+    , log = require('utilise/log')('@compone.define')
     , noop = () => {}
     , HTMLElement = client && window.HTMLElement || class {}
     , registry = client && window.customElements || {}
