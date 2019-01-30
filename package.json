@@ -1,8 +1,5 @@
 {
-  "author": {
-    "name": "pemrouz",
-    "url": "https://github.com/pemrouz"
-  },
+  "author": "pemrouz (https://github.com/pemrouz)",
   "bundleDependencies": false,
   "dependencies": {
     "@compone/class": "^1.1.1",
@@ -11,10 +8,22 @@
     "utilise": "^2.3.8"
   },
   "deprecated": false,
-  "description": "",
   "keywords": [],
-  "license": "pemrouz.mit-license.org",
+  "license": "MIT",
   "main": "index.js",
-  "name": "@compone/define",
-  "version": "1.2.4"
+  "name": "@3liv/@compone/define",
+  "version": "1.2.4",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3liv/compone.define.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3liv/compone.define/issues"
+  },
+  "homepage": "https://github.com/3liv/compone.define#readme",
+  "description": ""
 }
