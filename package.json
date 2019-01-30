@@ -11,7 +11,7 @@
   "keywords": [],
   "license": "MIT",
   "main": "index.js",
-  "name": "@3liv/@compone/define",
+  "name": "@3liv/compone.define",
   "version": "1.2.4",
   "devDependencies": {},
   "scripts": {
